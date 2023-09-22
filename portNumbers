@@ -1,0 +1,5 @@
+ApplicationName             port
+config                      8888
+discovery                   8761
+account                     9001
+customer                    9000
