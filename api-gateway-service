@@ -1,22 +1,4 @@
 spring:
-  datasource:
-    username: newroot
-    password: root
-    url: jdbc:mysql://localhost:3306/account  
-    hikari:
-      connection-timeout: 60000
-      maximum-pool-size: 5
-      auto-commit: true   
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-    properties:
-      hibernate:
-        dialet: org.hibernate.dialect.MySQLDialect   
-  jackson:
-    serialization:
-      fail-on-empty-beans: false
   application:
       name: api-gateway-service
 server:
@@ -35,10 +17,5 @@ management:
       exposure:
         include: refresh,health
         
-customProperty:
-  test: Rochishachanda
-#api:
-#  customer: http://CUSTOMER-SERVICE/api/customer
-# api:
-#   customer: http://localhost:9010/api/customer
+
 
