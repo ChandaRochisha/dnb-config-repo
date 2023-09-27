@@ -15,7 +15,7 @@ spring:
       - id: AUTH-SERVICE
         uri: lb://AUTH-SERVICE
         predicates:
-        - Path=/auth/** 
+        - Path=api/auth/** 
   jpa:
     hibernate:
       ddl-auto: update
