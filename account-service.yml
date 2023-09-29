@@ -18,7 +18,7 @@ spring:
     serialization:
       fail-on-empty-beans: false
   application:
-      name: account-service
+      name: ACCOUNTSERVICE
 server:
    port: 0
    error:
