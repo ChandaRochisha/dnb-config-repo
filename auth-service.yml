@@ -20,5 +20,5 @@ eureka:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 jwt:
   secret: mySecretKey
-  expireMs: 1800000
-  refrEshexpireMs: 1800000
+  expireMs: 7200000
+  refrEshexpireMs: 7200000
